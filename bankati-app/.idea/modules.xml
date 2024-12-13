@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bankati-app.iml" filepath="$PROJECT_DIR$/bankati-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../batch-service/batch-service.iml" filepath="$PROJECT_DIR$/../batch-service/batch-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmi-service/cmi-service.iml" filepath="$PROJECT_DIR$/../cmi-service/cmi-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../config-service/config-service.iml" filepath="$PROJECT_DIR$/../config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eurika-service/eurika-service.iml" filepath="$PROJECT_DIR$/../eurika-service/eurika-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/../gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../notification-service/notification-service.iml" filepath="$PROJECT_DIR$/../notification-service/notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../transaction-service/transaction-service.iml" filepath="$PROJECT_DIR$/../transaction-service/transaction-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../virtuelCard-service/virtuelCard-service.iml" filepath="$PROJECT_DIR$/../virtuelCard-service/virtuelCard-service.iml" />
+    </modules>
+  </component>
+</project>
