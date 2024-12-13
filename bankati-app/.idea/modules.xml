@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../accountManagement-service/accountManagement-service.iml" filepath="$PROJECT_DIR$/../accountManagement-service/accountManagement-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/bankati-app.iml" filepath="$PROJECT_DIR$/bankati-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../batch-service/batch-service.iml" filepath="$PROJECT_DIR$/../batch-service/batch-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../cmi-service/cmi-service.iml" filepath="$PROJECT_DIR$/../cmi-service/cmi-service.iml" />

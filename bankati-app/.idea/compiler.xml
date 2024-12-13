@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,7 +11,7 @@
         <module name="config-service" />
         <module name="gateway-service" />
       </profile>
-      <profile name="Annotation profile for virtuelCard-service" enabled="true">
+      <profile name="Annotation profile for accountManagement-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -18,6 +19,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="transaction-service" />
+        <module name="accountManagement-service" />
         <module name="virtuelCard-service" />
         <module name="notification-service" />
         <module name="cmi-service" />
@@ -25,6 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="accountManagement-service" target="17" />
       <module name="batch-service" target="17" />
       <module name="cmi-service" target="17" />
       <module name="config-service" target="17" />
@@ -37,6 +40,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accountManagement-service" options="-parameters" />
       <module name="batch-service" options="-parameters" />
       <module name="cmi-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
