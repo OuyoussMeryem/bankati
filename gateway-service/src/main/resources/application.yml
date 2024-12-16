@@ -1,0 +1,56 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: account-management-service
+          uri: lb://ACCOUNTMANAGEMENT-SERVICE
+          predicates:
+            - Path=/account-management/**
+          filters:
+            - StripPrefix=1
+
+
+        - id: batch-service
+          uri: lb://BATCH-SERVICE
+          predicates:
+            - Path=/batch/**
+          filters:
+            - StripPrefix=1
+            - AuthenticationFilter
+
+        - id: cmi-service
+          uri: lb://CMI-SERVICE
+          predicates:
+            - Path=/cmi/**
+          filters:
+            - StripPrefix=1
+            - AuthenticationFilter
+
+        - id: notification-service
+          uri: lb://NOTIFICATION-SERVICE
+          predicates:
+            - Path=/notifications/**
+          filters:
+            - StripPrefix=1
+            - AuthenticationFilter
+
+        - id: transaction-service
+          uri: lb://TRANSACTION-SERVICE
+          predicates:
+            - Path=/transactions/**
+          filters:
+            - StripPrefix=1
+            - AuthenticationFilter
+
+        - id: virtual-card-service
+          uri: lb://VIRTUELCARD-SERVICE
+          predicates:
+            - Path=/virtual-card/**
+          filters:
+            - StripPrefix=1
+            - AuthenticationFilter
+
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka/
