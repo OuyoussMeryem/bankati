@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ma.ensa</groupId>
-	<artifactId>virtuelCard-service</artifactId>
+	<artifactId>Portefeuille-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>virtuelCard-service</name>
+	<name>portefeuille-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
