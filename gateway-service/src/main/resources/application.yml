@@ -42,10 +42,10 @@ spring:
             - StripPrefix=1
             - AuthenticationFilter
 
-        - id: virtual-card-service
-          uri: lb://VIRTUELCARD-SERVICE
+        - id: portfeuille-service
+          uri: lb://PORTEFEUILLE-SERVICE
           predicates:
-            - Path=/virtual-card/**
+            - Path=/portefeuille-card/**
           filters:
             - StripPrefix=1
             - AuthenticationFilter
